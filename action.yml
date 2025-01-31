@@ -1,0 +1,7 @@
+name: 'POC'
+author: 'DS'
+description: 'Github Actions POC'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
