@@ -2,6 +2,12 @@ name: 'POC'
 author: 'DS'
 description: 'Github Actions POC'
 
+input:
+  name:
+    description: 'Name of the person to greet'
+    required: false
+    default: 'User'
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
