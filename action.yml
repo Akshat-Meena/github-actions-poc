@@ -2,7 +2,7 @@ name: 'POC'
 author: 'DS'
 description: 'Github Actions POC'
 
-input:
+inputs:
   name:
     description: 'Name of the person to greet'
     required: false
